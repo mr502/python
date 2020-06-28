@@ -1,4 +1,8 @@
-try:
-    print(1/0)
-except Exception as e:#Exception 捕获所有的错误
-    print('0不能做除数 %s' % e)
+  
+try :
+    a = open ('name.txt')
+#Exception 捕获所有的错误
+except Exception as e:  #Exception 捕获所有的错误
+    print(e)
+finally:
+    a.close()
