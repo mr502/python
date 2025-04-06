@@ -1,8 +1,0 @@
-  
-try :
-    a = open ('name.txt')
-#Exception 捕获所有的错误
-except Exception as e:  #Exception 捕获所有的错误
-    print(e)
-finally:
-    a.close()
